@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="to-do-list.css">
+    <script src="https://kit.fontawesome.com/d7fa88071b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- parent div -->
+    <div id="container">
+         <!-- first div -->
+        <div id="name">
+           <h1 id="h1name">Welcome To Task Manager</h1>
+           <p>Please add your tasks below.</p>
+           
+           <!-- first div's child -->
+        <div id="inputdiv">
+           <input type="text" id="taskinput"  placeholder="Type your task here">
+           <button id="button" ><i  class="fa-solid fa-location-arrow"></i></button>
+        </div>
+        </div>
+
+
+         <!-- second div -->
+        <div id="doing">
+           <h1 id="h1doing">Going To Do</h1>
+           
+           <ul id="tasklist"></ul>
+        
+        </div>
+
+
+         <!-- third div -->
+        <div id="done">
+           <h1 id="h1done">Done!!</h1>
+           <ul id="donelist"></ul>
+        </div>
+        
+    </div>
+    <script src="to-do-list.js"></script>
+</body>
+</html>

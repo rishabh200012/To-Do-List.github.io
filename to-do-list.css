@@ -1,0 +1,125 @@
+body{
+    padding:1%;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 95vh;
+    width: 90vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 10px;
+    background-color: rgb(223, 254, 138);
+    border-radius: 2%;
+    
+}
+
+/* first div */
+#name{
+    
+    width: 25%;
+    border-color: black;
+    height: 80%;
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    margin-right: 10px;
+    border-radius: 6%;
+}
+
+#h1name{
+ 
+  text-align: center;
+  /* margin-top: 50%; */
+  font-style: italic;
+  opacity: 0.6;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+p{
+    text-align: center;
+    font-style: italic;
+    opacity: 0.6;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#taskinput{
+    margin-left:35px;
+    margin-top: 300px;
+    width:70%
+    
+}
+input{
+    border-radius: 8px;
+    height: 40px;
+    font-size: 16px;
+    white-space: wrap;
+    /* overflow: scroll; */
+}
+button{
+    border: none;
+    background-color: white;
+}
+button i{
+     color:rgb(91, 236, 39);
+     font-size: 30px;
+     transform: rotate(45deg);
+    position: relative;
+    top: 5px;
+     padding: 3px;
+     background: transparent;
+}
+
+
+/* second div */
+#doing{
+    width: 25%;
+    border-color: black;
+    height: 80%;
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    margin-right: 10px;
+    border-radius: 6%;
+}
+
+#h1doing{
+    text-align: center;
+    font-style: italic;
+    opacity: 0.6;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#done{
+    width: 25%;
+    border-color: black;
+    height: 80%;
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    margin-right: 10px;
+    border-radius: 6%;
+}
+
+#h1done{
+    text-align: center;
+    font-style: italic;
+    opacity: 0.6;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.buttonclass{
+    display: flex;
+    margin-left: auto;
+    margin-top: -7px;
+}
+
+.deletebuttonclass{
+    display: flex;
+    margin-left: auto;
+    margin-top: -7px;
+}
